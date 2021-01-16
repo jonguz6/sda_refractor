@@ -35,5 +35,6 @@ def get_max_accessories(path: str):
         raise
     return None
 
+
 if __name__ == "__main__":
     print(get_max_accessories("accessories.txt"))

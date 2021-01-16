@@ -13,6 +13,7 @@ class Singleton:
             Singleton.__instance = Singleton.__Singleton()
         return Singleton.__instance
 
+
 x = Singleton()
 x.val = 'test01'
 print(x)
